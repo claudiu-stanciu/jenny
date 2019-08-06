@@ -8,7 +8,8 @@ ThisBuild / organizationName := "jenny"
 lazy val runDeps = Seq(
   scalaLogging,
   logback,
-  scalaCheck
+  scalaCheck,
+  json4sNative
 )
 
 lazy val testDeps = Seq(scalaTest).map(d => d % Test)
