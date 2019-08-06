@@ -1,3 +1,3 @@
-package com.stejr.generator
+package com.stejr.jenny
 
 case class FieldType(name: String, fieldType: String)
