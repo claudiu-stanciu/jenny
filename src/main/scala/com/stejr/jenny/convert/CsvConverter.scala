@@ -2,7 +2,7 @@ package com.stejr.jenny.convert
 
 import scala.collection.mutable.ListBuffer
 
-class CsvConverter(delimiter: String, hasHeader: Boolean = true) extends Converter {
+class CsvConverter(delimiter: String = ",", hasHeader: Boolean = true) extends Converter {
 
   /**
    * Convert data map into a CSV format representation. See [[Converter.run()]]
