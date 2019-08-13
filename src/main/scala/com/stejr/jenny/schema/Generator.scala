@@ -1,6 +1,6 @@
-package com.stejr.jenny
+package com.stejr.jenny.schema
 
-import org.scalacheck._
+import org.scalacheck.Gen
 
 /**
  * Generate values for given case class

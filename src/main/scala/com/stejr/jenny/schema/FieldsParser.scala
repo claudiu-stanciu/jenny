@@ -1,7 +1,6 @@
-package com.stejr.jenny
+package com.stejr.jenny.schema
 
-import org.json4s._
-import org.json4s.native.JsonMethods._
+import org.json4s.native.JsonMethods.parse
 
 object FieldsParser {
   def get(content: String): Map[String, Any] = {

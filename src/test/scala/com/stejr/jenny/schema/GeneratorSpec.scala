@@ -1,4 +1,4 @@
-package com.stejr.jenny
+package com.stejr.jenny.schema
 
 import scala.io.Source
 
