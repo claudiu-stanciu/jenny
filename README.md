@@ -6,3 +6,6 @@ Generate sample data, based on fields and field types
 - sink output: stdout, fs, kafka, etc
 
 - works for 1 definition
+
+## Example run
+- see [here](src/test/scala/com/stejr/jenny/integration/IntegrationSpec.scala)

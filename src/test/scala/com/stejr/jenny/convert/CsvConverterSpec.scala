@@ -29,7 +29,7 @@ class CsvConverterSpec extends FlatSpecLike with Matchers {
     converter.run(data) shouldBe expected
   }
 
-  "Csv converter" should "convert multiple data maps to a multi-line CSV without header" in {
+  it should "convert multiple data maps to a multi-line CSV without header" in {
     val data = List(Map("name" -> "John", "age" -> 123), Map("name" -> "Doe", "age" -> 7645))
     val delimiter = ","
     val expected =

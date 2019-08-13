@@ -21,6 +21,14 @@ class IntegrationSpec extends FlatSpec with Matchers {
     // TODO add check for printing to console
     sink.send(csvData)
 
+    /**
+     * should look like this:
+     * ===>>>>>
+     * name,age
+     * lOcgydfwpsuiYxgjvvwlduwfpjlfKps,932
+     * <<<<<===
+     */
+
     // checking to have header + 1 line for the random data
     csvData.split("\n") should have length 2
   }
@@ -37,6 +45,16 @@ class IntegrationSpec extends FlatSpec with Matchers {
 
     // TODO add check for printing to console
     sink.send(csvData)
+
+    /**
+     * should look like this:
+     * ===>>>>>
+     * name,age
+     * fhybwitztmlgekbhpxxixyNanqVnowknissay,701
+     * HupvocXfgficbfknxztgdvswNclmzpzrz,826
+     * pyxrvoxodmeujqEucwmyuivvab,940
+     * <<<<<===
+     */
 
     // checking to have header + 3 lines for the random data
     csvData.split("\n") should have length entries + 1
